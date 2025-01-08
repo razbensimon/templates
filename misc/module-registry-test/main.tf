@@ -1,6 +1,6 @@
 module "raz" {
-  source = "api-pr17834.dev.env0.com/737bb6df-1d96-4cec-825b-1e957dc54b95/raz/razush"
-  version = "1.0.0"
+  source = "api-pr17883.dev.env0.com/f3850937-c125-4978-8cab-a25602348807/raz/raz2"
+  version = "0.0.11"
 }
 
 resource "null_resource" "null" {}
