@@ -1,4 +1,6 @@
-module "test_module" {
-  source = "api-pr8696.dev.env0.com/32007f92-3b38-4e6b-bf15-75a1f524e6ba/test_module/raz"
-  version = "0.0.2"
+module "raz" {
+  source = "api-pr17834.dev.env0.com/737bb6df-1d96-4cec-825b-1e957dc54b95/raz/razush"
+  version = "1.0.0"
 }
+
+resource "null_resource" "null" {}
