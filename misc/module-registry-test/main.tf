@@ -1,6 +1,6 @@
-module "aaa" {
-  source = "api-pr17899.dev.env0.com/e2dd0e34-d49c-4879-b5a1-4020af5047d0/aaa/aaa"
-  version = "0.2.0"
+module "raz" {
+  source = "api-pr17883.dev.env0.com/f3850937-c125-4978-8cab-a25602348807/raz/raz2"
+  version = "1.1.1"
 }
 
 resource "null_resource" "null" {}
